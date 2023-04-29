@@ -1,0 +1,42 @@
+name: curriculumgpt
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.10.0
+  firebase_auth: ^4.4.2
+  google_sign_in: ^6.1.0
+  multiple_result: ^4.0.0
+  get_it: ^7.3.0
+  bloc: ^8.1.1
+  flutter_bloc: ^8.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_native_splash: ^2.2.19
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/shared/assets/icons/
+    - lib/shared/assets/images/
+  fonts:
+    - family: OpenSans
+      fonts:
+        - asset: lib/shared/assets/fonts/OpenSans-Bold.ttf
+          weight: 700
+        - asset: lib/shared/assets/fonts/OpenSans-SemiBold.ttf
+          weight: 600
+        - asset: lib/shared/assets/fonts/OpenSans-Regular.ttf
+          weight: 400

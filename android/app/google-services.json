@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1093445526374",
+    "project_id": "curriculumgpt",
+    "storage_bucket": "curriculumgpt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1093445526374:android:c5e1e9ade964ff0d8e1ea7",
+        "android_client_info": {
+          "package_name": "com.example.curriculumgpt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1093445526374-almmraav04th4u2dlmc9baffib5nka35.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVSiWlOKDO6zkdjg9A_X6aqkBWgb85N8I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1093445526374-almmraav04th4u2dlmc9baffib5nka35.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
